@@ -9,6 +9,7 @@ function Login() {
   const { setUser } = useContext(UserContext);
   const handleSubmit = (e) => {
     e.preventDefault();
+    // this will send the data after clicking the button
     setUser({ username, password });
   };
   return (

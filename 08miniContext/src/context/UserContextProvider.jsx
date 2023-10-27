@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import UserContext from "./UserContext";
 
+// here children is a generic name
 const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   return (

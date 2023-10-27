@@ -9,7 +9,9 @@ function App() {
     <>
       <UserContextProvider>
         <h1>REact with chai</h1>
+        {/* login will send the data */}
         <Login />
+        {/* profile will get the data or fetch the data */}
         <Profile />
       </UserContextProvider>
     </>
